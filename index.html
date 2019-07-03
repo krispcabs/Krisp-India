@@ -437,12 +437,12 @@ License URL: http://creativecommons.org/licenses/by/3.0/
                 $mail = mail($to, $subject, $email_body, $Header);
                 if($mail){
                     echo '<script>
-alert("Thank You.We will contact you shortly.");
+// alert("Thank You.We will contact you shortly.");
 </script>';
                 }else{
                     error_reporting();
                     echo '<script>
-alert(" shortly.");
+// alert(" shortly.");
 </script>';
 
             }
